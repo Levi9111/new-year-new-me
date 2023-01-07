@@ -13,6 +13,7 @@ body {
   height: 100vh;
   background-image: url(../images/banner/banner2.png);
   background-position: left;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -29,15 +30,16 @@ body {
 
 .header--description {
   width: 450px;
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   line-height: 26px;
   margin-bottom: 32px;
+  color: #444343;
 }
 
 .header--btn {
-  font-weight: 600;
   font-size: 20px;
+  font-weight: 600;
   line-height: 23px;
   color: #ffffff;
   background: #f15b22;
@@ -46,10 +48,8 @@ body {
   border: none;
 }
 
-/* main body starts */
+/* main body starts..... */
 
-.main--body {
-}
 
 /* failures section */
 
@@ -61,12 +61,9 @@ body {
   margin: 130px 206px;
 }
 
-.failures--image {
-}
 
 .failures--image img {
   height: 500px;
-  /* width: 5; */
 }
 
 .failures--description {
@@ -132,8 +129,6 @@ ul li i {
 }
 
 .goals .goal--card img {
-  /* height: 92px;
-  width: 92px; */
   margin-bottom: 30px;
 }
 
@@ -155,10 +150,7 @@ ul li i {
   width: 100%;
   height: 125vh;
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(21, 20, 20, 0.603);
+  
 }
 #book--video {
   object-fit: cover;
@@ -168,6 +160,15 @@ ul li i {
   height: 100%;
   z-index: -11;
 }
+
+.bg--description{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(21, 20, 20, 0.603);
+} 
 
 .bg--heading {
   padding: 30px 20px;
@@ -179,14 +180,13 @@ ul li i {
   background-color: rgba(21, 20, 20, 0.726);
   color: #f8f8f8;
   border-radius: 10px;
-  margin-bottom: 100px;
 }
 
 .audio {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 1000px;
+  justify-content: space-around;
+  width: 100%;
 }
 
 /* gradient Images */
@@ -195,6 +195,7 @@ ul li i {
   background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
     url(../images/watch.png);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   border-radius: 8px;
   margin: 130px 230px;
@@ -233,8 +234,6 @@ ul li i {
   justify-content: space-between;
 }
 
-.footer--description {
-}
 
 .footer--heading {
   font-size: 45px;
@@ -258,16 +257,6 @@ ul li i {
 .footer--phone {
   margin-bottom: 35px;
   font-size: 15px;
-}
-
-.footer--icons {
-}
-
-.footer--subscription {
-  /* display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start; */
 }
 
 .footer--subscription .footer--heading {
